@@ -1,0 +1,35 @@
+.Product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 5px;
+  color: #fff;
+  margin: 5px 5px;
+  padding: 10px;
+  width: 150px;
+  font-size: 18px;
+
+  transition: all 0.3s ease;
+}
+
+.Product:hover {
+  transform: scale(1.1);
+}
+
+.ProductImage {
+  width: 100%;
+  border-radius: 3px;
+  height: 115px;
+}
+
+.ProductItem {
+  font-size: 18px;
+  margin: 4px;
+}
+
+.ProductName {
+  font-size: 25px;
+  color: goldenrod;
+}

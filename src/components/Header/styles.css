@@ -1,0 +1,29 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  background-color: black;
+  color: goldenrod;
+}
+
+.HeaderTitle {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.HeaderSlogan {
+  font-family: cursive;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 350px) {
+  .HeaderTitle {
+    font-size: 15px;
+  }
+  .HeaderSlogan {
+    font-size: 14px;
+  }
+}
